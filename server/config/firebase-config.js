@@ -1,10 +1,13 @@
 import { initializeApp, cert } from "firebase-admin/app";
 import { getAuth } from "firebase-admin/auth";
-
 import { readFileSync } from "fs";
 
 const serviceAccountKey = JSON.parse(
-  readFileSync(new URL("./serviceAccountKey.json", import.meta.url))
+  readFileSync(
+    process.env.RENDER
+      ? "/etc/secrets/serviceAccountKey.json"
+      : new URL("./serviceAccountKey.json", import.meta.url)
+  )
 );
 
 const app = initializeApp({
@@ -12,4 +15,5 @@ const app = initializeApp({
 });
 
 const auth = getAuth(app);
+
 export default auth;
