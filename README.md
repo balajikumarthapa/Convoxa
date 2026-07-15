@@ -1,6 +1,6 @@
 # Convoxa
 
-A real-time chat application. Another fun side project :)
+A modern real-time messaging platform built with React, Node.js, MongoDB, Firebase, and Socket.io.
 
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)
@@ -101,7 +101,7 @@ Never commit `.env` or `server/config/serviceAccountKey.json` — both are alrea
 ## Project Structure
 
 ```
-lets-chat/
+Convoxa/
 ├── frontend/          # React app (components, services, contexts)
 └── server/            # Express API, MongoDB models, socket.io
     ├── controllers/
