@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.emoji-picker-react {
+  @apply bg-white dark:bg-slate-800
+  }
+
+  .emoji-picker-react .emoji-search {
+    @apply dark:bg-slate-800 dark:text-white dark:border-slate-700 dark:focus:border-rose-500
+    }
+
+    .emoji-picker-react .emoji-categories  {
+      @apply dark:bg-slate-800;
+      }
+
+      .emoji-picker-react .emoji-scroll-wrapper::-webkit-scrollbar {
+        @apply dark:bg-slate-800 w-5
+      }
+
+      .emoji-picker-react .emoji-categories button  {
+        @apply contrast-0
+        }
+
+      .emoji-picker-react .emoji-scroll-wrapper .emoji-group::before {
+        @apply dark:bg-slate-800 dark:text-white
+      }
+
+@layer base {
+  body {
+    @apply bg-white text-slate-900 dark:bg-black dark:text-slate-100 font-sans;
+    margin: 0;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-rose-200 dark:bg-slate-700 rounded-full transition-colors;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    @apply bg-rose-300 dark:bg-slate-600;
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #ea96be transparent;
+  }
+  .dark .scrollbar-thin {
+    scrollbar-color: #2a2a2a transparent;
+  }
+
+  .skeleton {
+    @apply bg-slate-200 dark:bg-slate-800 bg-[length:200%_100%] animate-shimmer;
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .dark .skeleton {
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.06) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .chat-wallpaper {
+    background-image: radial-gradient(
+      rgba(201, 62, 121, 0.08) 1.4px,
+      transparent 1.4px
+    );
+    background-size: 22px 22px;
+  }
+  .dark .chat-wallpaper {
+    background-image: radial-gradient(
+      rgba(225, 108, 161, 0.09) 1.4px,
+      transparent 1.4px
+    );
+    background-size: 22px 22px;
+  }
+
+  /* Focus-visible ring used across custom interactive elements for a11y */
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900;
+  }
+}
