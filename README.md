@@ -1,4 +1,4 @@
-# Let's Chat
+# Convoxa
 
 A real-time chat application. Another fun side project :)
 
