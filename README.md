@@ -10,11 +10,14 @@ A real-time chat application. Another fun side project :)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.1-06B6D4?logo=tailwindcss&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-![Screenshot from 2022-09-07 16-27-25](https://user-images.githubusercontent.com/66206865/188901222-8eefabe5-8ca2-4305-aeb3-3afa37b304b3.png)
 
-![Screenshot from 2022-09-07 17-11-16](https://user-images.githubusercontent.com/66206865/188900580-01d0d3ca-b242-4f48-99cf-96edeeb5f1db.png)
+<img width="1920" height="833" alt="login page" src="https://github.com/user-attachments/assets/72407caf-109e-4ea2-a08e-930b7f917867" />
+<img width="1896" height="834" alt="welcome page" src="https://github.com/user-attachments/assets/ac947762-c6de-4419-af7a-82a471f1c6ed" />
+<img width="1892" height="823" alt="avatar" src="https://github.com/user-attachments/assets/2bd27e48-49d3-4610-9b35-adb577ecc3c5" />
+<img width="1896" height="833" alt="light theme" src="https://github.com/user-attachments/assets/299f16fd-17a1-4b8f-a5a6-1462b9fcb81e" />
+<img width="1895" height="827" alt="dark theme" src="https://github.com/user-attachments/assets/888e74a8-b99e-4d84-9900-ff9201c3951e" />
 
-GIFs are attached at the end.
+
 
 ## Table of Contents
 
@@ -108,10 +111,3 @@ lets-chat/
     └── config/
 ```
 
-## GIFs
-
-![chrome-capture-2022-8-7](https://user-images.githubusercontent.com/66206865/188901119-65a05b65-3c76-4c3f-92c5-042d061df8e1.gif)
-
-![chrome-capture-2022-8-7 (1)](https://user-images.githubusercontent.com/66206865/188900841-2dfe91c2-eb78-4f70-a013-babe0124ee68.gif)
-
-![chrome-capture-2022-8-7 (2)](https://user-images.githubusercontent.com/66206865/188900662-a120aef4-ced1-442b-98dd-ab90b4cea7b5.gif)
