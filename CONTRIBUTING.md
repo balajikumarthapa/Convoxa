@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for considering a contribution to Let's Chat!
+Thanks for considering a contribution to Convoxa!
 
 ## Getting set up
 
