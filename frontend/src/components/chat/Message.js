@@ -16,7 +16,7 @@ import {
 } from "react-icons/fi";
 import { BsPinAngle, BsPinAngleFill, BsCheck2, BsCheck2All } from "react-icons/bs";
 
-const SERVER_URL = "http://localhost:5000";
+const SERVER_URL = "https://convoxa-server.onrender.com";
 const QUICK_REACTIONS = ["👍", "❤️", "😂", "😮", "😢", "🙏"];
 
 function classNames(...classes) {

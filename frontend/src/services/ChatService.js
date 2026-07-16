@@ -2,8 +2,8 @@ import axios from "axios";
 import auth from "../config/firebase";
 import { io } from "socket.io-client";
 
-const baseURL = "http://localhost:5000/api";
-export const SERVER_URL = "http://localhost:5000";
+const baseURL = "https://convoxa-server.onrender.com/api";
+export const SERVER_URL = "https://convoxa-server.onrender.com";
 
 const getUserToken = async () => {
   const user = auth.currentUser;
@@ -14,7 +14,7 @@ const getUserToken = async () => {
 export const initiateSocketConnection = async () => {
   const token = await getUserToken();
 
-  const socket = io("http://localhost:5000", {
+  const socket = io("https://convoxa-server.onrender.com", {
     auth: {
       token,
     },

@@ -4,7 +4,7 @@ import { FiX, FiBellOff, FiTrash2, FiImage, FiFileText, FiDownload } from "react
 import { getUser } from "../../services/ChatService";
 import { FileIcon, Lightbox } from "./Message";
 
-const SERVER_URL = "http://localhost:5000";
+const SERVER_URL = "https://convoxa-server.onrender.com";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

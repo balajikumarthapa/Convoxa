@@ -9,3 +9,5 @@ server/config/serviceAccountKey.json
 
 ## Env file
 .env
+
+server/uploads/
