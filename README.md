@@ -1,6 +1,14 @@
 # Convoxa
 
-A modern real-time messaging platform built with React, Node.js, MongoDB, Firebase, and Socket.io.
+A modern real-time messaging platform built with React, Node.js, Express.js, MongoDB Atlas, Firebase Authentication, and Socket.IO. The application supports real-time messaging, media sharing, typing indicators, read receipts, and cloud deployment using Render.
+
+## Live Demo
+
+- Application: https://convoxa-frontend.onrender.com
+
+## Backend API
+
+- https://convoxa-server.onrender.com
 
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)
@@ -49,6 +57,13 @@ A modern real-time messaging platform built with React, Node.js, MongoDB, Fireba
 - Emoji picker
 - Light and dark mode
 - Polished, animated UI with loading skeletons and smooth transitions
+
+  ## Deployment
+
+- Frontend deployed on Render Static Site.
+- Backend deployed on Render Web Service.
+- MongoDB Atlas for cloud database hosting.
+- Firebase Authentication for secure user management.
 
 ## Getting Started
 
@@ -110,4 +125,9 @@ Convoxa/
     ├── routes/
     └── config/
 ```
+## Author
 
+**Balaji Kumar Thapa L**
+
+- GitHub: https://github.com/balajikumarthapa
+- LinkedIn: https://www.linkedin.com/in/<your-linkedin>
