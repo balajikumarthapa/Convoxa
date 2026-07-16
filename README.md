@@ -58,7 +58,7 @@ A modern real-time messaging platform built with React, Node.js, Express.js, Mon
 - Light and dark mode
 - Polished, animated UI with loading skeletons and smooth transitions
 
-  ## Deployment
+## Deployment
 
 - Frontend deployed on Render Static Site.
 - Backend deployed on Render Web Service.
