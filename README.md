@@ -130,4 +130,4 @@ Convoxa/
 **Balaji Kumar Thapa L**
 
 - GitHub: https://github.com/balajikumarthapa
-- LinkedIn: [https://www.linkedin.com/in/<your-linkedin>](https://www.linkedin.com/in/balajikumarthapa/)
+- LinkedIn: https://www.linkedin.com/in/balajikumarthapa/
